@@ -1,0 +1,49 @@
+{
+  "name": "map-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@deck.gl/core": "^8.2.3",
+    "@deck.gl/geo-layers": "^8.2.3",
+    "@deck.gl/layers": "^8.2.3",
+    "@radarlabs/s2": "0.0.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "deck.gl": "^8.2.3",
+    "immutable": "^4.0.0-rc.12",
+    "r-dom": "^2.4.0",
+    "randomcolor": "^0.6.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.2.2",
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
+    "react-map-gl": "^5.2.7",
+    "react-map-gl-heatmap-overlay": "^1.1.4",
+    "react-scripts": "3.4.1",
+    "s2-geometry": "^1.2.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
